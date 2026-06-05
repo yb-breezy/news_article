@@ -6,7 +6,6 @@ def count_specific_word(text, search_word):
 
     for word in words:
         word = word.strip(".,!?")
-
         if word == search_word.lower():
             count += 1
 
